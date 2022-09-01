@@ -1,0 +1,20 @@
+@media screen and (max-width:800px){
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:999px){
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .video-grid {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
