@@ -5,13 +5,18 @@
     --black-color: black;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     margin: 0px;
     padding-top: 80px;
     padding-left: 96px;
     padding-right: 24px;
     background-color: rgb(238, 238, 238);
-    font-family: roboto, arial;
+    font-family: var(--active-font-family);
 }
 
 p {
